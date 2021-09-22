@@ -5,7 +5,7 @@
 ## O que foi utilizado no projeto:
   - Foi utilizado o express.js como framework;
   - Foi utilizado o sequelize como ORM;
-  - Postegres foi o banco de dados escolhido, utilizando o elephantSQL com a conta gratuita;
+  - Postgres foi o banco de dados escolhido, utilizando o elephantSQL com a conta gratuita;
   - Para melhor desenvolvimento foi utilizado o nodemon e sucrase;
 
 ## Rodando o projeto:
