@@ -14,7 +14,7 @@ class ProductController {
         if(!!name && name != ''){
             // filtra todos os elementos que tem o 'name' fazendo parte da string
             const filterName = product.filter((element)=>{
-                return element.name.toLowerCase().includes(name)
+                return element.name.toLowerCase().includes(name.toLowerCase())
             })
             const quantity = filterName.length
 
